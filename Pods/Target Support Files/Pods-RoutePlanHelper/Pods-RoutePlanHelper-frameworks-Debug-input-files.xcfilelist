@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-RoutePlanHelper/Pods-RoutePlanHelper-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/FSCalendar/FSCalendar.framework
+${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework

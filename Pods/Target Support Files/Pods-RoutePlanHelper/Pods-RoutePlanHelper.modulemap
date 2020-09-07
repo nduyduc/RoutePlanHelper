@@ -1,0 +1,6 @@
+framework module Pods_RoutePlanHelper {
+  umbrella header "Pods-RoutePlanHelper-umbrella.h"
+
+  export *
+  module * { export * }
+}

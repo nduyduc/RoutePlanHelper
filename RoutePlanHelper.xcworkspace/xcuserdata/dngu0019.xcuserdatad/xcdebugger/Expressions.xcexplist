@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "TripViewController.calendar(_:didSelect:at:):TripViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "selectedDate">
+            </PersistentString>
+            <PersistentString
+               value = "selectedTrip">
+            </PersistentString>
+            <PersistentString
+               value = "formatDate(selectedDate)">
+            </PersistentString>
+            <PersistentString
+               value = "currentTripPlaces">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in ExploreViewController.drawPath(startLocation:endLocation:):ExploreViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "response.data">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AddPlaceToTripViewController.doneButtonClicked(_:):AddPlaceToTripViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "place.placeID">
+            </PersistentString>
+            <PersistentString
+               value = "datePicker!.date">
+            </PersistentString>
+            <PersistentString
+               value = "startDate">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "TripViewController.updateView(trip:):TripViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "selectedTrip.start_place">
+            </PersistentString>
+            <PersistentString
+               value = "currentTripPlaces">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ExploreViewController.viewController(_:didAutocompleteWith:):ExploreViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.view.safeAreaLayoutGuide.layoutFrame.size.height">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "TripViewController.tableView(_:numberOfRowsInSection:):TripViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "currentTripPlaces.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

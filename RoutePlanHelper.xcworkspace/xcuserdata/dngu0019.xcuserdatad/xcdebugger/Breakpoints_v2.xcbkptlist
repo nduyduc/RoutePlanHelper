@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RoutePlanHelper/Database/CoreDataController.swift"
+            timestampString = "582183882.022388"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "addPlace(id:name:address:latitude:longitude:saved:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RoutePlanHelper/Views/PlaceDetailsView.swift"
+            timestampString = "582214448.721969"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "129"
+            endingLineNumber = "129"
+            landmarkName = "addToTripButtonClicked(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RoutePlanHelper/ViewControllers/TripViewController.swift"
+            timestampString = "582214448.722291"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "TripViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RoutePlanHelper.TripViewController.calendar.getter : weak Swift.Optional&lt;__C.FSCalendar&gt;"
+                  moduleName = "RoutePlanHelper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///var/folders/pt/n0px0r257ms_f2sh43mzql1wv_m2vm/T/tmp.bGbDboDT/Desktop/iOSProjects/RoutePlanHelper/RoutePlanHelper/ViewControllers/TripViewController.swift"
+                  timestampString = "580217663.578318"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "86">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RoutePlanHelper.TripViewController.calendar.setter : weak Swift.Optional&lt;__C.FSCalendar&gt;"
+                  moduleName = "RoutePlanHelper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///var/folders/pt/n0px0r257ms_f2sh43mzql1wv_m2vm/T/tmp.bGbDboDT/Desktop/iOSProjects/RoutePlanHelper/RoutePlanHelper/ViewControllers/TripViewController.swift"
+                  timestampString = "580217663.581587"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "106">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RoutePlanHelper.TripViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; RoutePlanHelper.TripViewController"
+                  moduleName = "RoutePlanHelper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///var/folders/pt/n0px0r257ms_f2sh43mzql1wv_m2vm/T/tmp.bGbDboDT/Desktop/iOSProjects/RoutePlanHelper/RoutePlanHelper/ViewControllers/TripViewController.swift"
+                  timestampString = "580217663.5836051"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "228">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RoutePlanHelper.TripViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;RoutePlanHelper.TripViewController&gt;"
+                  moduleName = "RoutePlanHelper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///var/folders/pt/n0px0r257ms_f2sh43mzql1wv_m2vm/T/tmp.bGbDboDT/Desktop/iOSProjects/RoutePlanHelper/RoutePlanHelper/ViewControllers/TripViewController.swift"
+                  timestampString = "580217663.585019"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "199">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RoutePlanHelper/ViewControllers/TripViewController.swift"
+            timestampString = "582214448.722335"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "165"
+            endingLineNumber = "165"
+            landmarkName = "numberOfSections(in:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RoutePlanHelper/Algorithm/RoutePlan.swift"
+            timestampString = "582214448.722379"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "get_data(places:i:j:n:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

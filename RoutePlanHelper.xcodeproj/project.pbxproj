@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		130E9E2622B2573000C4125A /* PictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130E9E2522B2573000C4125A /* PictureViewController.swift */; };
+		13148E9E227EE91600343298 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13148E9D227EE91600343298 /* AppDelegate.swift */; };
+		13148EA0227EE91600343298 /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13148E9F227EE91600343298 /* ExploreViewController.swift */; };
+		13148EA2227EE91600343298 /* TripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13148EA1227EE91600343298 /* TripViewController.swift */; };
+		13148EA5227EE91600343298 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13148EA3227EE91600343298 /* Main.storyboard */; };
+		13148EA7227EE91800343298 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13148EA6227EE91800343298 /* Assets.xcassets */; };
+		13148EAA227EE91800343298 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13148EA8227EE91800343298 /* LaunchScreen.storyboard */; };
+		13148EBC227F28D800343298 /* RoutePlanHelper.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 13148EBA227F28D800343298 /* RoutePlanHelper.xcdatamodeld */; };
+		13148EC7227F2C0100343298 /* DatabaseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13148EC6227F2C0100343298 /* DatabaseProtocol.swift */; };
+		13148EC9227F2FD400343298 /* CoreDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13148EC8227F2FD400343298 /* CoreDataController.swift */; };
+		13148ECB227F401900343298 /* MulticastDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13148ECA227F401900343298 /* MulticastDelegate.swift */; };
+		132E59B722847ACB00BAFEC8 /* PlaceDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132E59B622847ACB00BAFEC8 /* PlaceDetailsView.swift */; };
+		132E59B922848B1D00BAFEC8 /* PlaceDetailsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 132E59B822848B1D00BAFEC8 /* PlaceDetailsView.xib */; };
+		13300B9222A64CC800DDF178 /* TripSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13300B9122A64CC800DDF178 /* TripSettingsViewController.swift */; };
+		1337D31D22AFF16100E84F27 /* ImagesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1337D31C22AFF16100E84F27 /* ImagesCollectionViewCell.swift */; };
+		13B318AB229AD19200E39D84 /* RoutePlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B318AA229AD19200E39D84 /* RoutePlan.swift */; };
+		13C37BCB227F52F2007D7585 /* SavedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C37BCA227F52F2007D7585 /* SavedTableViewController.swift */; };
+		13C37BCE227F5619007D7585 /* SavedPlaceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C37BCD227F5619007D7585 /* SavedPlaceTableViewCell.swift */; };
+		13C61EDA229015060055B239 /* AddPlaceToTripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C61ED9229015060055B239 /* AddPlaceToTripViewController.swift */; };
+		13C61EE3229058470055B239 /* Trip+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C61EDF229058470055B239 /* Trip+CoreDataClass.swift */; };
+		13C61EE4229058470055B239 /* Trip+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C61EE0229058470055B239 /* Trip+CoreDataProperties.swift */; };
+		13C61EE5229058470055B239 /* Place+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C61EE1229058470055B239 /* Place+CoreDataClass.swift */; };
+		13C61EE6229058470055B239 /* Place+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C61EE2229058470055B239 /* Place+CoreDataProperties.swift */; };
+		13C91C702286E37F00053D0B /* PlaceDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C91C6F2286E37F00053D0B /* PlaceDetailsViewController.swift */; };
+		13CA650A22B36C62001BEE4B /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CA650922B36C62001BEE4B /* AboutViewController.swift */; };
+		13D9D1E1227F87DA0065FAAA /* TripTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D9D1E0227F87DA0065FAAA /* TripTableViewCell.swift */; };
+		D912A337C33E394D12C20A06 /* Pods_RoutePlanHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B342A1FE6F64F98F0E641FD6 /* Pods_RoutePlanHelper.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		130E9E2522B2573000C4125A /* PictureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureViewController.swift; sourceTree = "<group>"; };
+		13148E9A227EE91500343298 /* RoutePlanHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoutePlanHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13148E9D227EE91600343298 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		13148E9F227EE91600343298 /* ExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
+		13148EA1227EE91600343298 /* TripViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripViewController.swift; sourceTree = "<group>"; };
+		13148EA4227EE91600343298 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		13148EA6227EE91800343298 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		13148EA9227EE91800343298 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		13148EAB227EE91800343298 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13148EBB227F28D800343298 /* RoutePlanHelper.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RoutePlanHelper.xcdatamodel; sourceTree = "<group>"; };
+		13148EC6227F2C0100343298 /* DatabaseProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseProtocol.swift; sourceTree = "<group>"; };
+		13148EC8227F2FD400343298 /* CoreDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataController.swift; sourceTree = "<group>"; };
+		13148ECA227F401900343298 /* MulticastDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MulticastDelegate.swift; sourceTree = "<group>"; };
+		132E59B622847ACB00BAFEC8 /* PlaceDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceDetailsView.swift; sourceTree = "<group>"; };
+		132E59B822848B1D00BAFEC8 /* PlaceDetailsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlaceDetailsView.xib; sourceTree = "<group>"; };
+		13300B9122A64CC800DDF178 /* TripSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripSettingsViewController.swift; sourceTree = "<group>"; };
+		1337D31C22AFF16100E84F27 /* ImagesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesCollectionViewCell.swift; sourceTree = "<group>"; };
+		13B318AA229AD19200E39D84 /* RoutePlan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutePlan.swift; sourceTree = "<group>"; };
+		13C37BCA227F52F2007D7585 /* SavedTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedTableViewController.swift; sourceTree = "<group>"; };
+		13C37BCD227F5619007D7585 /* SavedPlaceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedPlaceTableViewCell.swift; sourceTree = "<group>"; };
+		13C61ED9229015060055B239 /* AddPlaceToTripViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlaceToTripViewController.swift; sourceTree = "<group>"; };
+		13C61EDF229058470055B239 /* Trip+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Trip+CoreDataClass.swift"; sourceTree = "<group>"; };
+		13C61EE0229058470055B239 /* Trip+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Trip+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		13C61EE1229058470055B239 /* Place+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Place+CoreDataClass.swift"; sourceTree = "<group>"; };
+		13C61EE2229058470055B239 /* Place+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Place+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		13C91C6F2286E37F00053D0B /* PlaceDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceDetailsViewController.swift; sourceTree = "<group>"; };
+		13CA650922B36C62001BEE4B /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		13D9D1E0227F87DA0065FAAA /* TripTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripTableViewCell.swift; sourceTree = "<group>"; };
+		6BC8D19055878B48D8A1E41D /* Pods-RoutePlanHelper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoutePlanHelper.release.xcconfig"; path = "Target Support Files/Pods-RoutePlanHelper/Pods-RoutePlanHelper.release.xcconfig"; sourceTree = "<group>"; };
+		B342A1FE6F64F98F0E641FD6 /* Pods_RoutePlanHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RoutePlanHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D311DD4DE735E14BC414D425 /* Pods-RoutePlanHelper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoutePlanHelper.debug.xcconfig"; path = "Target Support Files/Pods-RoutePlanHelper/Pods-RoutePlanHelper.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13148E97227EE91500343298 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D912A337C33E394D12C20A06 /* Pods_RoutePlanHelper.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13148E91227EE91500343298 = {
+			isa = PBXGroup;
+			children = (
+				13148E9C227EE91500343298 /* RoutePlanHelper */,
+				13148E9B227EE91500343298 /* Products */,
+				43C88EE90843A126D45317FC /* Pods */,
+				93D39346B810310813BAC6D7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		13148E9B227EE91500343298 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13148E9A227EE91500343298 /* RoutePlanHelper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13148E9C227EE91500343298 /* RoutePlanHelper */ = {
+			isa = PBXGroup;
+			children = (
+				13B318A9229ACD9600E39D84 /* Algorithm */,
+				13C37BCF227F62E5007D7585 /* ViewControllers */,
+				13C37BCC227F55F2007D7585 /* TableCells */,
+				1337D31B22AFF12500E84F27 /* CollectionCells */,
+				13148EC5227F2BE200343298 /* Database */,
+				13148EB6227F285400343298 /* DataModel */,
+				13148EB1227EECAF00343298 /* Views */,
+				13148E9D227EE91600343298 /* AppDelegate.swift */,
+				13148EA3227EE91600343298 /* Main.storyboard */,
+				13148EA6227EE91800343298 /* Assets.xcassets */,
+				13148EA8227EE91800343298 /* LaunchScreen.storyboard */,
+				13148EAB227EE91800343298 /* Info.plist */,
+			);
+			path = RoutePlanHelper;
+			sourceTree = "<group>";
+		};
+		13148EB1227EECAF00343298 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				132E59B622847ACB00BAFEC8 /* PlaceDetailsView.swift */,
+				132E59B822848B1D00BAFEC8 /* PlaceDetailsView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		13148EB6227F285400343298 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				13C61EDF229058470055B239 /* Trip+CoreDataClass.swift */,
+				13C61EE0229058470055B239 /* Trip+CoreDataProperties.swift */,
+				13C61EE1229058470055B239 /* Place+CoreDataClass.swift */,
+				13C61EE2229058470055B239 /* Place+CoreDataProperties.swift */,
+				13148EBA227F28D800343298 /* RoutePlanHelper.xcdatamodeld */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		13148EC5227F2BE200343298 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				13148EC6227F2C0100343298 /* DatabaseProtocol.swift */,
+				13148EC8227F2FD400343298 /* CoreDataController.swift */,
+				13148ECA227F401900343298 /* MulticastDelegate.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		1337D31B22AFF12500E84F27 /* CollectionCells */ = {
+			isa = PBXGroup;
+			children = (
+				1337D31C22AFF16100E84F27 /* ImagesCollectionViewCell.swift */,
+			);
+			path = CollectionCells;
+			sourceTree = "<group>";
+		};
+		13B318A9229ACD9600E39D84 /* Algorithm */ = {
+			isa = PBXGroup;
+			children = (
+				13B318AA229AD19200E39D84 /* RoutePlan.swift */,
+			);
+			path = Algorithm;
+			sourceTree = "<group>";
+		};
+		13C37BCC227F55F2007D7585 /* TableCells */ = {
+			isa = PBXGroup;
+			children = (
+				13C37BCD227F5619007D7585 /* SavedPlaceTableViewCell.swift */,
+				13D9D1E0227F87DA0065FAAA /* TripTableViewCell.swift */,
+			);
+			path = TableCells;
+			sourceTree = "<group>";
+		};
+		13C37BCF227F62E5007D7585 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				13148E9F227EE91600343298 /* ExploreViewController.swift */,
+				13148EA1227EE91600343298 /* TripViewController.swift */,
+				13C37BCA227F52F2007D7585 /* SavedTableViewController.swift */,
+				13C91C6F2286E37F00053D0B /* PlaceDetailsViewController.swift */,
+				13C61ED9229015060055B239 /* AddPlaceToTripViewController.swift */,
+				13300B9122A64CC800DDF178 /* TripSettingsViewController.swift */,
+				130E9E2522B2573000C4125A /* PictureViewController.swift */,
+				13CA650922B36C62001BEE4B /* AboutViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		43C88EE90843A126D45317FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D311DD4DE735E14BC414D425 /* Pods-RoutePlanHelper.debug.xcconfig */,
+				6BC8D19055878B48D8A1E41D /* Pods-RoutePlanHelper.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		93D39346B810310813BAC6D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B342A1FE6F64F98F0E641FD6 /* Pods_RoutePlanHelper.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13148E99227EE91500343298 /* RoutePlanHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13148EAE227EE91800343298 /* Build configuration list for PBXNativeTarget "RoutePlanHelper" */;
+			buildPhases = (
+				41C188F902ED812B72443B2C /* [CP] Check Pods Manifest.lock */,
+				13148E96227EE91500343298 /* Sources */,
+				13148E97227EE91500343298 /* Frameworks */,
+				13148E98227EE91500343298 /* Resources */,
+				7E26C19ABE4E2D03CD7308AC /* [CP] Copy Pods Resources */,
+				99E9E5C25926F460B8546880 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RoutePlanHelper;
+			productName = RoutePlanHelper;
+			productReference = 13148E9A227EE91500343298 /* RoutePlanHelper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13148E92227EE91500343298 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Duy Nguyen";
+				TargetAttributes = {
+					13148E99227EE91500343298 = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 13148E95227EE91500343298 /* Build configuration list for PBXProject "RoutePlanHelper" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13148E91227EE91500343298;
+			productRefGroup = 13148E9B227EE91500343298 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13148E99227EE91500343298 /* RoutePlanHelper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13148E98227EE91500343298 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13148EAA227EE91800343298 /* LaunchScreen.storyboard in Resources */,
+				13148EA7227EE91800343298 /* Assets.xcassets in Resources */,
+				13148EA5227EE91600343298 /* Main.storyboard in Resources */,
+				132E59B922848B1D00BAFEC8 /* PlaceDetailsView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		41C188F902ED812B72443B2C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RoutePlanHelper-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E26C19ABE4E2D03CD7308AC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RoutePlanHelper/Pods-RoutePlanHelper-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RoutePlanHelper/Pods-RoutePlanHelper-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RoutePlanHelper/Pods-RoutePlanHelper-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99E9E5C25926F460B8546880 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RoutePlanHelper/Pods-RoutePlanHelper-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RoutePlanHelper/Pods-RoutePlanHelper-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RoutePlanHelper/Pods-RoutePlanHelper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13148E96227EE91500343298 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13148EA2227EE91600343298 /* TripViewController.swift in Sources */,
+				13148E9E227EE91600343298 /* AppDelegate.swift in Sources */,
+				13CA650A22B36C62001BEE4B /* AboutViewController.swift in Sources */,
+				13C37BCB227F52F2007D7585 /* SavedTableViewController.swift in Sources */,
+				13C61EE4229058470055B239 /* Trip+CoreDataProperties.swift in Sources */,
+				130E9E2622B2573000C4125A /* PictureViewController.swift in Sources */,
+				13148EC7227F2C0100343298 /* DatabaseProtocol.swift in Sources */,
+				132E59B722847ACB00BAFEC8 /* PlaceDetailsView.swift in Sources */,
+				13B318AB229AD19200E39D84 /* RoutePlan.swift in Sources */,
+				13148EC9227F2FD400343298 /* CoreDataController.swift in Sources */,
+				13148EA0227EE91600343298 /* ExploreViewController.swift in Sources */,
+				13C61EE6229058470055B239 /* Place+CoreDataProperties.swift in Sources */,
+				13D9D1E1227F87DA0065FAAA /* TripTableViewCell.swift in Sources */,
+				13C61EE3229058470055B239 /* Trip+CoreDataClass.swift in Sources */,
+				13C61EDA229015060055B239 /* AddPlaceToTripViewController.swift in Sources */,
+				13C91C702286E37F00053D0B /* PlaceDetailsViewController.swift in Sources */,
+				13C37BCE227F5619007D7585 /* SavedPlaceTableViewCell.swift in Sources */,
+				13C61EE5229058470055B239 /* Place+CoreDataClass.swift in Sources */,
+				13148EBC227F28D800343298 /* RoutePlanHelper.xcdatamodeld in Sources */,
+				13300B9222A64CC800DDF178 /* TripSettingsViewController.swift in Sources */,
+				1337D31D22AFF16100E84F27 /* ImagesCollectionViewCell.swift in Sources */,
+				13148ECB227F401900343298 /* MulticastDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		13148EA3227EE91600343298 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13148EA4227EE91600343298 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		13148EA8227EE91800343298 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13148EA9227EE91800343298 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13148EAC227EE91800343298 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		13148EAD227EE91800343298 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13148EAF227EE91800343298 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D311DD4DE735E14BC414D425 /* Pods-RoutePlanHelper.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B4Z44M4ZKN;
+				INFOPLIST_FILE = RoutePlanHelper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dngu0019.monash.RoutePlanHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		13148EB0227EE91800343298 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BC8D19055878B48D8A1E41D /* Pods-RoutePlanHelper.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B4Z44M4ZKN;
+				INFOPLIST_FILE = RoutePlanHelper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dngu0019.monash.RoutePlanHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13148E95227EE91500343298 /* Build configuration list for PBXProject "RoutePlanHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13148EAC227EE91800343298 /* Debug */,
+				13148EAD227EE91800343298 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13148EAE227EE91800343298 /* Build configuration list for PBXNativeTarget "RoutePlanHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13148EAF227EE91800343298 /* Debug */,
+				13148EB0227EE91800343298 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		13148EBA227F28D800343298 /* RoutePlanHelper.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				13148EBB227F28D800343298 /* RoutePlanHelper.xcdatamodel */,
+			);
+			currentVersion = 13148EBB227F28D800343298 /* RoutePlanHelper.xcdatamodel */;
+			path = RoutePlanHelper.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 13148E92227EE91500343298 /* Project object */;
+}
